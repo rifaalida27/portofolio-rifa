@@ -1,0 +1,79 @@
+html{
+    scroll-behavior: smooth;
+}
+section{
+    scroll-margin-top: 50px;
+}
+.robot-section {
+    background-color: #00ffff; 
+    padding-top: 60px;         
+    position: relative;        
+    text-align: center;
+    padding-bottom: 180px;        
+}
+.about-section{
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    padding-top: 150px;
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
+}
+.contact-section{
+    min-height: auto;
+    padding-bottom: 20px;
+}
+.profile-img {
+    width: 200px;             
+    height: 200px;            
+    border-radius: 50%;       
+    border: 5px solid white; 
+    object-fit: cover;        
+    margin-bottom: 20px;  
+}
+.wave-container {
+    line-height: 0;
+    margin-bottom: -1px;
+}
+.wave-container svg {
+    width: 100%;
+    height: auto;
+    display: block;
+    position: absolute;
+    bottom: 0;
+}
+.wave-buttom {
+    line-height: 0;
+    margin-top: -50px;
+}
+.wave-buttom svg {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.projects-section{
+    background-color: #00ffff; 
+    padding-bottom: 80px;
+    padding-top: 80px;
+    margin-bottom: 0px;
+    min-height: 100vh;
+    margin-top: -2px;
+}
+.projects-section h2{
+    margin-top: 0;
+}
+.card-img-top{
+    height: 150px;
+    object-fit: cover;
+}
+.card {
+    border: none; 
+    border-radius: 12px; 
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+#about{
+    padding-bottom: 0 !important;
+}
